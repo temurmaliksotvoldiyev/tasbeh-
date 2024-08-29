@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .count-wrapper {
+    text-align: center;
+  }
+  
+  .count-wrapper h2 {
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 20px;
+  }
+  
+  .count-wrapper span {
+    color: brown;
+  }
+  
+  .count-wrapper button {
+width: 100px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .count-wrapper button:active {
+    background-color: rgba(30, 143, 255, 0.801);
+  }
+  
+
+
+
